@@ -1,0 +1,201 @@
+﻿
+body {
+	background-color: white;
+	font-size: 11pt;
+	font-weight: normal;
+	font-style: normal;
+	font-family: verdana;
+	color: black;
+	margin:0px;
+}
+p {
+  line-height: 0.6;
+}
+
+#main {
+  position: relative;
+	width: 1024px;
+	margin:0px auto;   
+	box-sizing: border-box; 
+/*  border: solid 1px black;    */
+}
+#header {
+	position: relative;
+	width:100%;
+	height:160px;
+	background-color:#16a090;
+	color:black;
+	box-sizing: border-box; 
+	border: solid 1px black;
+	border-radius:5px;
+}
+#header_text {
+	padding: 20px;
+	font: 16px verdana, sans-serif;
+}
+#header_text .into {
+	font: 18px verdana, sans-serif;
+}
+
+#logo {
+	position: absolute;
+	top:30px;
+	left:750px;
+}
+#content {
+	position: relative;
+	width:100%;
+/*	height:600px;				*/
+/*	border: solid 1px silver;	*/
+	box-sizing: border-box;
+}
+#text_online_users {
+  margin-left:10px;
+}
+#widget_status_users {
+	height:580px;
+	width:300px;
+	margin-top: 25px;
+	background-color:#16a090;
+	border: solid 1px black; 
+	box-sizing: border-box;
+	border-radius:5px;
+}
+#widget_status_users_container {
+	height:536px;
+	width:278px;
+	margin:13px 10px 10px 10px;
+	padding: 10px;
+	background-color:#CCFFFF;
+	border: solid 1px black;
+	box-sizing: border-box;
+	border-radius:5px;
+}
+#chat {  
+	position: absolute;
+	top: 00px;
+	left:310px;		
+	height:450px;
+	width:712px;
+	padding: 20px;
+	font: 20px verdana, sans-serif;
+	border: solid 1px black; 
+	box-sizing: border-box;
+	border-radius:5px;
+}
+.class_user_chat {
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+#widget_input_messages {
+	position: absolute;
+	top:460px;
+	left:310px;
+	height:120px;
+	width:712px;
+/*	padding: 20px;     */
+	font: 18px verdana, sans-serif;
+/*	border: solid 1px black;   */
+	box-sizing: border-box;
+	border-radius:5px;
+}
+#widget_input_messages .textarea {
+  width: 670px;
+  height: 78px;  
+  font: 18px verdana, sans-serif;
+  color:black;
+  padding: 20px;
+  border: solid 1px black;
+  resize: none;
+  border-radius:5px;
+}
+#list_users {
+	font: 20px verdana, sans-serif;
+	color: black;
+}
+#active_user {
+	color:brown;
+}
+#footer {
+	width:100%;
+	height:110px;
+	margin:10px 0 0 0;
+  	font: 14px verdana, sans-serif;
+	background-color:white;
+	border: solid 1px black;   
+	box-sizing: border-box;
+	border-radius:5px;
+}
+#footer .footer_content {
+  margin-left:320px;
+}
+#footer_buttons {
+  position:relative;
+  font: 18px verdana, sans-serif;
+}
+#footer_buttons .B, #footer_buttons .I, #footer_buttons .U {
+  height: 30px;
+  width: 30px;
+  font: 18px verdana, sans-serif;
+}
+#footer_buttons .B {
+  position: absolute;
+  left:600px;
+  top:-100px;
+  font-weight:bold;
+}
+#footer_buttons .I {
+  position: absolute;
+  left:630px;
+  top:-100px;
+  font-style:italic;
+}
+#footer_buttons .U {
+  position: absolute;
+  left:660px;
+  top:-100px;
+  text-decoration:underline; 
+}
+#footer_buttons .link {
+  position: absolute;
+  left:720px;
+  top:-100px;
+  height: 30px;
+  width: 60px;
+  font: 18px verdana, sans-serif;
+}
+#footer_buttons .send_message {
+  position: absolute;
+  left:820px;
+  top:-80px;
+  height: 30px;
+  width: 200px;
+  font: 18px verdana, sans-serif;  
+}
+#tab_of_chat {
+  z-index: 10;
+  position:absolute;
+  top:166px;
+  left:315px;
+  display: table;
+
+}
+#tab_of_chat .row {
+  display: table-row;
+  text-decoration: none;
+}
+#tab_of_chat .row .cell {
+  display: table-cell;
+  border: 1px solid black;
+  min-width: 150px;
+  text-align: center;
+}
+.text-dec {
+  text-decoration: none;
+}
+#active_tab {
+  background-color:#CCFFFF; 
+}
+
+
